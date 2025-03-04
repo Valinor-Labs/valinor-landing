@@ -3,28 +3,11 @@ import { Card } from "./components/ui/card";
 import { ContactForm } from "./components/ui/contactform";
 
 function App() {
-  // const handleSubmit = (e: React.FormEvent) => {
-  //   e.preventDefault();
-  //   setIsSubmitting(true);
-
-  //   // Simulate form submission
-  //   setTimeout(() => {
-  //     setFormSubmitted(true);
-  //     setIsSubmitting(false);
-  //     setEmail("");
-  //     setMessage("");
-  //     setName("");
-  //   }, 1500);
-  // };
-
   return (
     <div className="min-h-screen bg-muted">
-      {/* Hero Section */}
       <header className="relative overflow-hidden">
-        {/* <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 z-0"></div> */}
         <div className="container mx-auto px-4 py-20 relative z-10">
           <div className="max-w-3xl">
-            {/* <Badge className="mb-4">Infrastructure as Code</Badge> */}
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6">
               Cloud Infrastructure{" "}
               <span className="text-primary">Simplified</span>
@@ -40,8 +23,6 @@ function App() {
           <div></div>
         </div>
       </header>
-
-      {/* How It Works Section */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
@@ -54,7 +35,6 @@ function App() {
               to handle complex infrastructure needs.
             </p>
           </div>
-
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -65,7 +45,6 @@ function App() {
                 Define your infrastructure using our simple, declarative syntax.
               </p>
             </div>
-
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-xl font-bold text-primary">2</span>
@@ -75,7 +54,6 @@ function App() {
                 Preview changes before they're applied to your infrastructure.
               </p>
             </div>
-
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-xl font-bold text-primary">3</span>
@@ -85,7 +63,6 @@ function App() {
                 Apply changes to your infrastructure with a single command.
               </p>
             </div>
-
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-xl font-bold text-primary">4</span>
@@ -98,8 +75,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* Contact Form Section */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
@@ -111,7 +86,6 @@ function App() {
               Fill out the form below and our team will get back to you shortly.
             </p>
           </div>
-
           <div className="max-w-2xl mx-auto">
             <Card className="p-6">
               <ContactForm />
@@ -119,8 +93,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
       <footer className="bg-muted py-12">
         <div className="container mx-auto px-4">
           <p className="text-center text-muted-foreground">
