@@ -3,6 +3,9 @@ import { Card } from "./components/ui/card";
 import { ContactForm } from "./components/ui/contactform";
 
 function App() {
+  function getCopyrightYear() {
+    return new Date().getFullYear();
+  }
   return (
     <div className="min-h-screen bg-muted">
       <header className="relative overflow-hidden">
@@ -96,7 +99,7 @@ function App() {
       <footer className="bg-muted py-12">
         <div className="container mx-auto px-4">
           <p className="text-center text-muted-foreground">
-            © 2023 InfraCloud. All rights reserved.
+            © {getCopyrightYear()} Valinor Labs. All rights reserved.
           </p>
         </div>
       </footer>
