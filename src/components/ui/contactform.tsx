@@ -8,7 +8,7 @@ export function ContactForm() {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const form = useRef();
-  
+
   const sendEmail = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -34,7 +34,7 @@ export function ContactForm() {
 
   if (formSubmitted) {
     return (
-      <div className="text-center py-8">
+      <div className="text-center py-8 bg-muted">
         <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -12,12 +12,12 @@ function App() {
         <div className="container mx-auto px-4 py-20 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6">
-              Cloud Infrastructure{" "}
-              <span className="text-primary">Simplified</span>
+              Revolutionizing Healthcare{" "}
+              <span className="text-primary">Infrastructure</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Deploy, scale, and manage your infrastructure with our powerful
-              platform. Built for developers, by developers.
+              Automating the backbone of healthcare with code. Scalable,
+              efficient, unstoppable.
             </p>
             <div className="flex flex-col sm:flex-row gap-4"></div>
           </div>
@@ -81,13 +81,13 @@ function App() {
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <Badge className="mb-4">Get in Touch</Badge>
+            <Badge className="mb-4">
+             Valinor
+            </Badge>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Ready to transform your infrastructure?
+              A Rare Opportunity to Transform Healthcare Tech
             </h2>
-            <p className="text-lg text-muted-foreground">
-              Fill out the form below and our team will get back to you shortly.
-            </p>
+            <p className="text-lg text-muted-foreground">Join the movement </p>
           </div>
           <div className="max-w-2xl mx-auto">
             <Card className="p-6">
