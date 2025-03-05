@@ -34,8 +34,8 @@ export function ContactForm() {
 
   if (formSubmitted) {
     return (
-      <div className="text-center py-8 bg-muted">
-        <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+      <div className="text-center py-8 bg-primary-teal">
+        <div className="w-16 h-16 bg-primary-forest rounded-full flex items-center justify-center mx-auto mb-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -46,17 +46,18 @@ export function ContactForm() {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="text-primary"
+            className="text-primary-bone"
           >
             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
             <polyline points="22 4 12 14.01 9 11.01"></polyline>
           </svg>
         </div>
-        <h3 className="text-xl font-semibold mb-2">Message Sent!</h3>
-        <p className="text-muted-foreground mb-4">
+        <h3 className="text-xl text-primary-bone font-semibold mb-2">Message Sent!</h3>
+        <p className="text-primary-bone mb-9">
           Thank you for reaching out. Our team will get back to you shortly.
         </p>
         <Button
+          className="bg-primary-forest text-primary-bone border-primary-olive hover:bg-primary-beige"
           variant="outline"
           onClick={() => {
             setIsSubmitting(false);
@@ -71,7 +72,10 @@ export function ContactForm() {
   return (
     <form onSubmit={sendEmail} ref={form} className="space-y-6 ">
       <div className="bg-primary-teal">
-        <label htmlFor="name" className="block text-sm text-primary-bone font-medium mb-2">
+        <label
+          htmlFor="name"
+          className="block text-sm text-primary-bone font-medium mb-2"
+        >
           Name
         </label>
         <Input
@@ -84,18 +88,39 @@ export function ContactForm() {
         />
       </div>
       <div>
-        <label className="block text-sm font-medium mb-2 text-primary-bone" htmlFor="email">
+        <label
+          className="block text-sm font-medium mb-2 text-primary-bone"
+          htmlFor="email"
+        >
           Email Address
         </label>
-        <Input id="email" type="email" name="email" className="bg-primary-teal border-primary-olive text-primary-bone" placeholder="Your email" />
+        <Input
+          id="email"
+          type="email"
+          name="email"
+          className="bg-primary-teal border-primary-olive text-primary-bone"
+          placeholder="Your email"
+        />
       </div>
       <div>
-        <label htmlFor="message" className="block text-sm text-primary-bone font-medium mb-2">
+        <label
+          htmlFor="message"
+          className="block text-sm text-primary-bone font-medium mb-2"
+        >
           Message
         </label>
-        <Textarea id="message" name="message" className="bg-primary-teal border-primary-olive text-primary-bone" placeholder="Your message"/>
+        <Textarea
+          id="message"
+          name="message"
+          className="bg-primary-teal border-primary-olive text-primary-bone"
+          placeholder="Your message"
+        />
       </div>
-      <Button type="submit" className="w-full bg-primary-forest" disabled={isSubmitting}>
+      <Button
+        type="submit"
+        className="w-full bg-primary-forest"
+        disabled={isSubmitting}
+      >
         Submit
       </Button>
     </form>
