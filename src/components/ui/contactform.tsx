@@ -86,15 +86,15 @@ export function ContactForm() {
         <label className="block text-sm font-medium mb-2" htmlFor="email">
           Email Address
         </label>
-        <Input id="email" type="email" name="email" />
+        <Input id="email" type="email" name="email" placeholder="Your email" />
       </div>
       <div>
         <label htmlFor="message" className="block text-sm font-medium mb-2">
           Message
         </label>
-        <Textarea id="message" name="message" />
+        <Textarea id="message" name="message" placeholder="Your message here"/>
       </div>
-      <Button type="submit" className="w-full" disabled={isSubmitting}>
+      <Button type="submit" className="w-full bg-primary-forest" disabled={isSubmitting}>
         Submit
       </Button>
     </form>
