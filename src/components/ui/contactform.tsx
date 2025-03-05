@@ -57,7 +57,7 @@ export function ContactForm() {
           Thank you for reaching out. Our team will get back to you shortly.
         </p>
         <Button
-          className="bg-primary-forest text-primary-bone border-primary-olive hover:bg-primary-beige"
+          className="bg-primary-forest text-primary-bone border-primary-olive hover:bg-primary-beige hover:text-black"
           variant="outline"
           onClick={() => {
             setIsSubmitting(false);
@@ -118,7 +118,7 @@ export function ContactForm() {
       </div>
       <Button
         type="submit"
-        className="w-full bg-primary-forest"
+        className="w-full bg-primary-forest hover:bg-primary-beige hover:text-black"
         disabled={isSubmitting}
       >
         Submit

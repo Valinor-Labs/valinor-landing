@@ -29,7 +29,7 @@ function App() {
       <section className="py-20 bg-primary-teal">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <Badge className="mb-4 bg-primary-forest">How It Works</Badge>
+            <Badge className="mb-4 bg-primary-forest hover:bg-primary-beige hover:text-black">How It Works</Badge>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary-bone">
               Simple, powerful, and efficient
             </h2>
@@ -81,7 +81,7 @@ function App() {
       <section className="py-20 bg-primary-teal">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <Badge className="mb-4 bg-primary-forest">
+            <Badge className="mb-4 bg-primary-forest hover:bg-primary-beige hover:text-black">
              Valinor
             </Badge>
             <h2 className="text-3xl md:text-4xl text-primary-bone font-bold mb-4">
