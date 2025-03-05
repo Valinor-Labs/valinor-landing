@@ -92,7 +92,7 @@ export function ContactForm() {
         <label htmlFor="message" className="block text-sm font-medium mb-2">
           Message
         </label>
-        <Textarea id="message" name="message" placeholder="Your message here"/>
+        <Textarea id="message" name="message" placeholder="Your message"/>
       </div>
       <Button type="submit" className="w-full bg-primary-forest" disabled={isSubmitting}>
         Submit
