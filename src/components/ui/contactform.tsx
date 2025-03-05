@@ -69,9 +69,9 @@ export function ContactForm() {
     );
   }
   return (
-    <form onSubmit={sendEmail} ref={form} className="space-y-6">
-      <div>
-        <label htmlFor="name" className="block text-sm font-medium mb-2">
+    <form onSubmit={sendEmail} ref={form} className="space-y-6 ">
+      <div className="bg-primary-teal">
+        <label htmlFor="name" className="block text-sm text-primary-bone font-medium mb-2">
           Name
         </label>
         <Input
@@ -79,20 +79,21 @@ export function ContactForm() {
           name="name"
           type="text"
           placeholder="Your name"
+          className="bg-primary-teal border-primary-olive"
           required
         />
       </div>
       <div>
-        <label className="block text-sm font-medium mb-2" htmlFor="email">
+        <label className="block text-sm font-medium mb-2 text-primary-bone" htmlFor="email">
           Email Address
         </label>
-        <Input id="email" type="email" name="email" placeholder="Your email" />
+        <Input id="email" type="email" name="email" className="bg-primary-teal border-primary-olive" placeholder="Your email" />
       </div>
       <div>
-        <label htmlFor="message" className="block text-sm font-medium mb-2">
+        <label htmlFor="message" className="block text-sm text-primary-bone font-medium mb-2">
           Message
         </label>
-        <Textarea id="message" name="message" placeholder="Your message"/>
+        <Textarea id="message" name="message" className="bg-primary-teal border-primary-olive" placeholder="Your message"/>
       </div>
       <Button type="submit" className="w-full bg-primary-forest" disabled={isSubmitting}>
         Submit

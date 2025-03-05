@@ -16,11 +16,12 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          teal: "#0D1B1E",
           bone: "#F4F4F4",
-          forest: "#1E3D2F",
           DEFAULT: "hsl(var(--primary))",
+          forest: "#1E3D2F",
           foreground: "hsl(var(--primary-foreground))",
+          olive: "#A3B18A",
+          teal: "#0D1B1E",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
