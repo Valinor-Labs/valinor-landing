@@ -95,7 +95,7 @@ function App() {
           </div>
           <h3 className="text-2xl text-center mb-12 text-primary-bone">Join the movement </h3>
           <div className="max-w-2xl mx-auto">
-            <Card className="p-6 bg-primary-teal border-primary-olive">
+            <Card className="p-6 bg-primary-teal border-primary-bone">
               <ContactForm />
             </Card>
           </div>

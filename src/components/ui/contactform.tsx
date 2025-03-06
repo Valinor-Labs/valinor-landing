@@ -57,7 +57,7 @@ export function ContactForm() {
           Thank you for reaching out. Our team will get back to you shortly.
         </p>
         <Button
-          className="bg-primary-forest text-primary-bone border-primary-olive hover:bg-primary-beige hover:text-black"
+          className="bg-primary-forest text-primary-bone border-primary-bone hover:bg-primary-beige hover:text-black"
           variant="outline"
           onClick={() => {
             setIsSubmitting(false);
@@ -83,7 +83,7 @@ export function ContactForm() {
           name="name"
           type="text"
           placeholder="Your name"
-          className="bg-primary-teal border-primary-olive text-primary-bone"
+          className="bg-primary-teal border-primary-bone text-primary-bone"
           required
         />
       </div>
@@ -98,7 +98,7 @@ export function ContactForm() {
           id="email"
           type="email"
           name="email"
-          className="bg-primary-teal border-primary-olive text-primary-bone"
+          className="bg-primary-teal border-primary-bone text-primary-bone"
           placeholder="Your email"
         />
       </div>
@@ -112,7 +112,7 @@ export function ContactForm() {
         <Textarea
           id="message"
           name="message"
-          className="bg-primary-teal border-primary-olive text-primary-bone"
+          className="bg-primary-teal border-primary-bone text-primary-bone"
           placeholder="Your message"
         />
       </div>
