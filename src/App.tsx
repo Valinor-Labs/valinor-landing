@@ -15,10 +15,12 @@ function App() {
               Revolutionizing Healthcare{" "}
               <span className="text-primary-bone">Infrastructure</span>
             </h1>
-            <p className="text-xl text-primary-bone mb-8">
-              Automating the backbone of healthcare with code. Scalable,
-              efficient, unstoppable.
+            <p className="text-xl text-primary-bone mb-2">
+              Automating the backbone of healthcare with code.
             </p>
+            <span className="text-xl text-primary-bone">
+              Scalable, efficient, unstoppable.
+            </span>
             <div className="flex flex-col sm:flex-row gap-4"></div>
           </div>
         </div>
@@ -29,7 +31,9 @@ function App() {
       <section className="py-20 bg-primary-teal">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <Badge className="mb-4 bg-primary-forest hover:bg-primary-beige hover:text-black">How It Works</Badge>
+            <Badge className="mb-4 bg-primary-forest hover:bg-primary-beige hover:text-black">
+              How It Works
+            </Badge>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary-bone">
               Simple, powerful, and efficient
             </h2>
@@ -43,7 +47,9 @@ function App() {
               <div className="w-16 h-16 bg-primary-forest rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-xl font-bold text-primary-bone">1</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-primary-bone">Define</h3>
+              <h3 className="text-xl font-semibold mb-2 text-primary-bone">
+                Define
+              </h3>
               <p className="text-primary-bone">
                 Define your infrastructure using our simple, declarative syntax.
               </p>
@@ -52,7 +58,9 @@ function App() {
               <div className="w-16 h-16 bg-primary-forest rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-xl font-bold text-primary-bone">2</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-primary-bone">Plan</h3>
+              <h3 className="text-xl font-semibold mb-2 text-primary-bone">
+                Plan
+              </h3>
               <p className="text-primary-bone">
                 Preview changes before they're applied to your infrastructure.
               </p>
@@ -61,7 +69,9 @@ function App() {
               <div className="w-16 h-16 bg-primary-forest rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-xl font-bold text-primary-bone">3</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-primary-bone">Apply</h3>
+              <h3 className="text-xl font-semibold mb-2 text-primary-bone">
+                Apply
+              </h3>
               <p className="text-primary-bone">
                 Apply changes to your infrastructure with a single command.
               </p>
@@ -70,7 +80,9 @@ function App() {
               <div className="w-16 h-16 bg-primary-forest rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-xl font-bold text-primary-bone">4</span>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-primary-bone">Monitor</h3>
+              <h3 className="text-xl font-semibold mb-2 text-primary-bone">
+                Monitor
+              </h3>
               <p className="text-primary-bone">
                 Monitor your infrastructure in real-time with our dashboard.
               </p>
@@ -82,7 +94,7 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <Badge className="mb-4 bg-primary-forest hover:bg-primary-beige hover:text-black">
-             Valinor
+              Valinor
             </Badge>
             <h2 className="text-3xl md:text-4xl text-primary-bone font-bold mb-4">
               A Rare Opportunity to Transform Healthcare Tech
